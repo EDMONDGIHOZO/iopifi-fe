@@ -3,7 +3,7 @@
     <top-bar/>
     <div class="flex">
       <left-menu v-if="showSidebar"/>
-      <div class="p-3">
+      <div class="p-12">
         <router-view></router-view>
       </div>
     </div>

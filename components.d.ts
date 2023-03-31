@@ -13,6 +13,8 @@ declare module '@vue/runtime-core' {
     ElAside: typeof import('element-plus/es')['ElAside']
     ElAvatar: typeof import('element-plus/es')['ElAvatar']
     ElBadge: typeof import('element-plus/es')['ElBadge']
+    ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
+    ElBreadcrumbItem: typeof import('element-plus/es')['ElBreadcrumbItem']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
     ElDropdown: typeof import('element-plus/es')['ElDropdown']
@@ -28,8 +30,11 @@ declare module '@vue/runtime-core' {
     LeftMenu: typeof import('./src/components/layout/LeftMenu.vue')['default']
     MainLayout: typeof import('./src/components/layout/MainLayout.vue')['default']
     MenuItem: typeof import('./src/components/features/MenuItem.vue')['default']
+    PageTop: typeof import('./src/components/layout/PageTop.vue')['default']
+    PatientStatsSections: typeof import('./src/components/features/PatientStatsSections.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    StatsItem: typeof import('./src/components/features/StatsItem.vue')['default']
     TopBar: typeof import('./src/components/layout/TopBar.vue')['default']
   }
 }

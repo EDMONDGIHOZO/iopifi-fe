@@ -24,6 +24,11 @@ const router = createRouter({
             path: '/settings',
             name: 'settings',
             component: PatientsView
+        },
+        {
+            path: '/support',
+            name: 'support',
+            component: PatientsView
         }
     ]
 })

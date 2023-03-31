@@ -10,7 +10,15 @@
       <li>
         <hr style="border: 1px solid #F3F6F7;">
       </li>
+      <menu-item
+          icon-name="solar:headphones-round-linear"
+          title="Support"
+          path="/support"
+      />
     </ul>
+    <div class="pb-20 w-full text-center absolute bottom-0">
+      <span class="text-center text-gray-400">© IOPifi Providers 2023</span>
+    </div>
   </div>
 </template>
 
