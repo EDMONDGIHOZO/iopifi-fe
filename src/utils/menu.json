@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/",
+    "icon": "tabler:layout-dashboard",
+    "title": "Dashboard",
+    "index": "1"
+  },
+  {
+    "path": "/patients",
+    "icon": "ci:users-group",
+    "title": "Patients",
+    "index": "2"
+  },
+  {
+    "path": "/providers",
+    "icon": "uiw:copy",
+    "title": "Providers",
+    "index": "3"
+  },
+  {
+    "path": "/settings",
+    "icon": "uil:setting",
+    "title": "Settings",
+    "index": "4"
+  }
+]

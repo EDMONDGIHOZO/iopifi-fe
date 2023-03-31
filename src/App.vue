@@ -1,18 +1,8 @@
 <script setup lang="ts">
-import {RouterView} from 'vue-router'
-import TopBar from "@/components/layout/TopBar.vue";
-import LeftMenu from "@/components/layout/LeftMenu.vue";
+import MainLayout from "@/components/layout/MainLayout.vue";
 </script>
 
 <template>
-  <main>
-    <top-bar/>
-    <section>
-      <left-menu/>
-      <div class="content_wrapper">
-        <RouterView/>
-      </div>
-    </section>
-  </main>
+  <MainLayout/>
 </template>
 

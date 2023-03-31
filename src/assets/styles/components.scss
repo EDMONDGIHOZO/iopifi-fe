@@ -1,0 +1,13 @@
+.menu_container {
+ @apply mx-auto justify-center px-4 flex flex-col gap-4;
+}
+.menu_item {
+  @apply p-3 flex items-center gap-3 cursor-pointer text-gray-400;
+  label {
+    @apply font-bold text-primary;
+  }
+}
+.menu_item_active {
+  @extend .menu_item;
+  @apply bg-primary bg-opacity-10 rounded-xl text-primary;
+}
