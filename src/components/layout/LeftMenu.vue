@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white absolute md:relative z-50 hidden w-8/12 pt-10 md:w-[228px] min-h-screen md:bg-opacity-100">
+  <div class="bg-white absolute w-full transition-all duration-200 md:relative z-50 pt-10 md:w-[260px] min-h-screen md:bg-opacity-100">
     <ul class="menu_container">
       <menu-item
           v-for="menu in menuItems" :key="menu.index"
