@@ -9,6 +9,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AttendenceTable: typeof import('./src/components/features/AttendenceTable.vue')['default']
+    ClinicInformationCard: typeof import('./src/components/features/ClinicInformationCard.vue')['default']
     DropWithAvatar: typeof import('./src/components/features/DropWithAvatar.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
     ElAvatar: typeof import('element-plus/es')['ElAvatar']
@@ -31,10 +33,13 @@ declare module '@vue/runtime-core' {
     MainLayout: typeof import('./src/components/layout/MainLayout.vue')['default']
     MenuItem: typeof import('./src/components/features/MenuItem.vue')['default']
     PageTop: typeof import('./src/components/layout/PageTop.vue')['default']
+    PatientInfoCard: typeof import('./src/components/features/PatientInfoCard.vue')['default']
     PatientStatsSections: typeof import('./src/components/features/PatientStatsSections.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    StatsCard: typeof import('./src/components/features/StatsCard.vue')['default']
     StatsItem: typeof import('./src/components/features/StatsItem.vue')['default']
+    StatusCard: typeof import('./src/components/features/StatusCard.vue')['default']
     TopBar: typeof import('./src/components/layout/TopBar.vue')['default']
   }
 }

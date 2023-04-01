@@ -11,3 +11,28 @@
   @extend .menu_item;
   @apply bg-primary bg-opacity-10 rounded-xl text-primary;
 }
+
+.primary_button_icon {
+  @apply bg-primary flex items-center gap-2 py-3 px-4 rounded border-none text-white font-bold hover:bg-opacity-50 cursor-pointer;
+}
+
+
+.white_container {
+  @apply bg-white rounded-xl p-4 mt-4;
+}
+
+.patient_stats_section {
+  @extend .white_container;
+  @apply grid grid-cols-2 gap-4 md:grid-cols-5 items-center
+}
+
+.info_row {
+  @apply space-y-3;
+  h4 {
+    @apply text-lightGray;
+    font-size: 1.2em;
+  }
+  strong {
+    @apply font-medium;
+  }
+}

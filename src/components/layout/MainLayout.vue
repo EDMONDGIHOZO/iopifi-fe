@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col h-screen bg-gray-100">
+  <div class="flex flex-col h-screen">
     <top-bar/>
-    <div class="flex">
+    <div class="block md:flex">
       <left-menu v-if="showSidebar"/>
-      <div class="p-12">
+      <div class="p-12 w-full">
         <router-view></router-view>
       </div>
     </div>
